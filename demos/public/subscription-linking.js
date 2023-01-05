@@ -16,7 +16,7 @@
 
 /* eslint-disable-next-line no-unused-vars */
 function linkSubscription() {
-  self.SWG_BASIC.push(async (basicSubscriptions) => {
+  self.SWG.push(async (basicSubscriptions) => {
     const outputElement = document.getElementById('link-result');
     const ppidInputElement = document.getElementById('ppid-input');
     const ppid = ppidInputElement.value.trim();
